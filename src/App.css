@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: "Nunito", sans-serif;
+  text-transform: capitalize;
 }
 
 button {
@@ -91,19 +92,14 @@ button {
   font-size: 16px;
 }
 
-.hero {
+.banner {
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(
-    ellipse at left bottom,
-    rgba(22, 24, 47, 1) 0%,
-    rgba(38, 20, 72, 0.9) 59%,
-    rgba(17, 27, 75, 0.9) 100%
-  );
+   
 }
 
-.hero nav {
-  background: #603bbb;
+.banner nav {
+  background: #615a57;
   width: 100%;
   padding: 20px 40px;
   display: flex;
@@ -111,11 +107,8 @@ button {
   justify-content: space-between;
 }
 
-.hero nav h2 {
-  color: #fff;
-}
 
-.hero nav button {
+.banner nav button {
   width: 86px;
   padding: 8px 0;
   background: #3a2b58;
